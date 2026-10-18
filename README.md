@@ -6,10 +6,10 @@ La pregunta que busca responder: **¿INFONAVIT está llegando a los estados que 
 
 ## Hallazgos principales
 
-- Durante 2015-2025 se otorgaron **~5.7 millones de créditos** por un monto de **$1.9 billones MXN**.
-- El ratio de cobertura vs rezago varía **más de 100 veces** entre estados: Nuevo León con 481% (los créditos acumulados equivalen a 4.8x el rezago actual) frente a Oaxaca con 4.5%.
-- **Chiapas** es el caso paradigmático: tiene el mayor crecimiento anual del país (CAGR +5.5%) pero su rezago es tan alto que la cobertura acumulada apenas llega al 7.8%.
-- Estados como Guerrero, Baja California Sur y Morelos muestran contracciones anuales superiores al -7%.
+- Durante 2015-2025 se otorgaron **~5.8 millones de créditos** por un monto de **$1.9 billones MXN**.
+- El ratio de cobertura vs rezago varía **más de 100 veces** entre estados: Nuevo León con 482% (los créditos acumulados equivalen a 4.8x el rezago actual) frente a Oaxaca con 4.5%.
+- **Chiapas** es el caso paradigmático: tiene el segundo mayor rezago del país (1 millón de viviendas, 70% de las del estado) y uno de los mayores crecimientos anuales (CAGR 2015-2025 de +8.2%, solo detrás de Hidalgo con +8.3%), pero su cobertura acumulada apenas llega al 7.8%.
+- Guerrero (-6.3%), Baja California Sur (-4.3%) y Yucatán (-3.4%) muestran las mayores contracciones anuales.
 
 ## Arquitectura
 
@@ -37,7 +37,7 @@ Los datos se consumen directamente de la API pública del SNIIV (sin token ni au
 
 ```bash
 git clone <este-repo>
-cd dashboard-infonavit
+cd dashboard-infonavit-rezago-habitacional
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
